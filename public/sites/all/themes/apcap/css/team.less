@@ -1,0 +1,156 @@
+/* team landing page */
+
+#block-views-team-grid-list-block{
+	table{
+		border-left: 1px solid #DBDEE1;
+	    border-top: 1px solid #DBDEE1;
+	    width: 697px;
+	    td{
+		 	border-bottom: 1px solid #DBDEE1;
+		    border-right: 1px solid #DBDEE1;
+		    float: left;
+		    overflow: hidden;
+		    width: 86px;
+		    padding: 0;
+		    position: relative;
+		    .bio-frame{
+		    	border: 5px solid #FFFFFF;
+    			height: 92px;
+    			width: 76px;
+	    		&:hover {
+					border: 5px solid #406792;
+				}
+		    }
+		    span{
+		    	text-align: center;
+		    }		    
+	    }
+	}
+}
+
+div.tool-tip-top-shadow{
+ 	background: url("../images/tip_top.png") no-repeat scroll 0 0 transparent;
+    height: 20px;
+    left: -25px;
+    position: relative;
+    top: -20px;
+    width: 173px;
+}
+
+a.tool-tip-container{
+	height: 60px;
+	width: 120px;
+	display: block;
+	text-decoration: none;
+	position: absolute;
+	top: 10px;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+p.name{
+	color: #FFF;
+	font-weight: bold;
+	margin: 0;
+	line-height: 1.2em;
+}
+p.tooltip-link{
+	font-weight: bold;
+	background: url(../images/tip_arrow.gif) no-repeat 0px 4px;
+	padding: 0 0 0 10px;
+	color: #FFF;
+	text-align: left;
+	margin: 0;
+	line-height: 1.2em;
+}
+
+div.position{
+	text-align: left;
+	color: #FFF;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2em;
+}
+
+#block-views-team-vertical-list-block{
+	font-family: "Arial", Helvetica, sans-serif;
+	table{
+		tbody{
+			border-top: 1px dotted #B2B2B2;
+			td{
+			    border-bottom: 1px dotted #B2B2B2;
+			    list-style: none outside none;
+			    padding: 4px 0;
+			    width: 212px;
+				a {
+				    background: url("../images/rightNavArrow.gif") no-repeat scroll 0 8px transparent;
+				    color: #000000;
+				    display: block;
+				    padding: 0 0 0 10px;
+				    text-decoration: none;
+				}
+			}
+		}
+	}
+}
+
+/* individual staff page */
+
+.staff-content-container{
+ 	background: url("../images/bio_bg.gif") repeat-x scroll center bottom transparent;
+    width: 640px;
+    float:left;
+	.left {
+		float:left;
+	    background: none repeat scroll 0 0 transparent;
+	    width: 500px;
+	    padding-bottom: 50px;
+		#name-position {
+		    background: none repeat scroll 0 0 #003767;
+		    color: #FFFFFF;
+		    padding: 25px 20px 20px;
+		    .name{
+		    	font-size: 20px;
+		    }
+		}
+		#description {
+		    padding: 15px 25px 20px;
+		    width: 440px;
+		    p{
+		    	text-align: justify;
+		    	width: 414px;
+		    	line-height: 150%;
+		    }
+		}
+	    a {
+			background: url("../images/bioArrow.png") no-repeat scroll 0 4px transparent;
+		    color: #003767;
+		    display: block;
+		    margin: 0 0 100px 25px;
+		    padding: 0 0 0 10px;
+		    text-decoration: none;
+	    }
+	}
+	.right {
+		float: right;
+	    width: 140px;
+	    img{
+ 			border: 10px solid #ECECEC;
+    		height: 146px;
+    		width: 121px;
+	    }
+		#email {
+		    display: block;
+		    height: 146px;
+		    padding: 10px 0;
+		    
+			a {
+			    color: #214969;
+			    display: block;
+			    font-size: 11px;
+			    text-align: center;
+			    text-decoration: none;
+			}
+		}
+	}
+}

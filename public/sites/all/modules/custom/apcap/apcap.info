@@ -1,0 +1,4 @@
+name = APCAP
+description = Miscellaneous hooks and functions
+package = APCAP
+core = 7.x

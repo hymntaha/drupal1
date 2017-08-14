@@ -1,0 +1,131 @@
+/* client landing page */
+
+#block-views-clients-list-block{
+  	color: #6B6B6B;
+    font: 12px Arial,Helvetica,sans-serif;
+
+    min-height: 400px;
+    table{
+    	border-left: 1px solid #DBDEE1;
+    	border-top: 1px solid #DBDEE1;
+	    td{
+	    	padding: 0px;
+			.client {
+			    border-bottom: 1px solid #DBDEE1;
+			    border-right: 1px solid #DBDEE1;
+			    height: 193px;
+			    width: 233px;
+			    &:hover .client-inner{
+			    	border:10px solid #013e74;
+			    }
+			    .client-inner {
+				    border: 10px solid #F7F7F7;
+				    height: 173px;
+				    width: 213px;
+				    .client-inner-border{
+						border: 1px solid #DBDEE1;
+					    color: #6B6B6B;
+					    display: block;
+					    height: 172px;
+					    text-decoration: none;
+					    width: 212px;
+					    text-align: center;
+					    a:link, a:visited {
+						    color: #6B6B6B;
+						    text-decoration: none;
+						}
+					    .client-logo{
+							margin: 20px 0 6px;
+							img{
+								width: 212px;
+							}
+					    }
+					    .client-name{
+					    	font-size: 12px;
+    						height: 30px;
+    						margin-bottom: 6px;
+					    }
+					    .client-amount{
+    						font-size: 17px;
+    						font-weight: bold;
+    						margin-bottom: 10px;
+					    }
+				    }
+				}
+			}
+	    }    	
+    }
+}
+
+/* individual client page */
+
+.single-client-wrapper{
+    float: left;
+    padding-bottom: 50px;
+    width: 699px;
+	#single-client-container{
+		background: url("../images/bio_bg.gif") repeat-x scroll center bottom transparent;
+	    overflow: hidden;
+		.left-wrapper{
+		  	background: none repeat scroll 0 0 #FFFFFF;
+		    border: 10px solid #DBDEE1;
+		    color: #6B6B6B;
+		    display: block;
+		    height: 172px;
+		    padding-bottom: 0;
+		    text-align: center;
+		    text-decoration: none;
+		    width: 215px;
+		    float: left;
+		    img{
+		    	margin: 20px 0 10px;
+		    }
+		    .name{
+		    	font-size: 14px;
+		    	margin-bottom: 10px;
+		    }
+		    .amount{
+				font-size: 14px;
+			    font-weight: bold;
+			    margin-bottom: 10px;
+		    }
+		}
+		.right-wrapper{
+			width: 464px;
+			float: right;
+			.title{
+				background: none repeat scroll 0 0 #003767;
+	    		color: #FFFFFF;
+	    		display: block;
+	    		font-size: 19px;
+	    		padding: 20px 20px 20px 25px;
+			}
+			.description{
+				display: block;
+	    		padding: 20px 20px 20px 25px;
+	    		font-family: "Arial", Helvetica, sans-serif;
+	    		font-size: 12px;
+	    		line-height: 1.2em;
+	    		color: #6B6B6B;
+	    		p{
+	    			text-align: justify;
+	    		}
+			}
+			.back-link {
+			    display: block;
+			    margin-bottom: 100px;
+			    padding: 0 0 0 25px;
+			    a {
+ 					background: url("../images/bioArrow.png") no-repeat scroll 0 4px transparent;
+    				color: #003767;
+    				padding: 0 0 0 10px;
+    				text-decoration: none;
+			    }
+			}
+		}
+	}
+}
+
+
+
+

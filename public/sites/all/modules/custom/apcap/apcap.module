@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * Implementation of hook_views_pre_render()
+ *
+ * @param view $view
+ */
+function apcap_views_pre_render(&$view) {
+  if ('clients_list' == $view->name) {
+    usort($view->result, 'sortbyTransactionDate');
+  }
+}
+
+function sortbyTransactionDate($a, $b){
+	$atime = strtotime($a->field_field_transaction_date[0]['raw']['value']);
+	$btime = strtotime($b->field_field_transaction_date[0]['raw']['value']);
+	if($atime == $btime) return 0;
+	return $atime > $btime ? -1 : 1;
+}

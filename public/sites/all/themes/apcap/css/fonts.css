@@ -1,0 +1,48 @@
+/* @license
+ * MyFonts Webfont Build ID 2647681, 2013-09-19T17:37:59-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Univers 65 Bold by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/univers/65-bold/
+ * 
+ * Webfont: Univers 45 Light by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/univers/45-light/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2647681
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright &#x00A9; 1987, 1991, 1993, 1994, 1998, 2002 Adobe Systems Incorporated.  All Rights Reserved. &#x00A9; 1981, 1998, 2002 Heidelberger Druckmaschinen AG. All rights reserved.
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/286681");
+
+  
+@font-face {
+    font-family: 'UniversLTStd65Bold';
+    src: url('/sites/all/themes/apcap/fonts/286681_0_0.eot');
+    src: url('/sites/all/themes/apcap/fonts/286681_0_0.eot?#iefix') format('embedded-opentype'),
+         url('/sites/all/themes/apcap/fonts/286681_0_0.woff') format('woff'),
+         url('/sites/all/themes/apcap/fonts/286681_0_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {
+    font-family: 'UniversLTStd45Light';
+    src: url('/sites/all/themes/apcap/fonts/286681_1_0.eot');
+    src: url('/sites/all/themes/apcap/fonts/286681_1_0.eot?#iefix') format('embedded-opentype'),
+         url('/sites/all/themes/apcap/fonts/286681_1_0.woff') format('woff'),
+         url('/sites/all/themes/apcap/fonts/286681_1_0.ttf') format('truetype');
+}
+ 
+
+
+

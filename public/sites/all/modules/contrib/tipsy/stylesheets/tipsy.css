@@ -1,0 +1,33 @@
+.tipsy { padding: 5px; font-size: 10px; position: absolute; z-index: 100000; }
+  .tipsy-inner { border-radius: 3px; -moz-border-radius:3px; -webkit-border-radius:3px; }
+  .tipsy-arrow { background: url('../images/tip_bottom.png'); height: 20px; width: 173px; }
+  .tipsy-n .tipsy-arrow { top: 0; left: 50%; margin-left: 0; }
+    .tipsy-nw .tipsy-arrow { top: 0; left: 10px; }
+    .tipsy-ne .tipsy-arrow { top: 0; right: 10px; }
+
+    .tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; background-position: bottom left; }
+    .tipsy-se .tipsy-arrow { bottom: 0; right: 10px; background-position: bottom left; }
+  .tipsy-e .tipsy-arrow { top: 50%; margin-top: -4px; right: 0; width: 5px; height: 9px; background-position: top right; }
+  .tipsy-w .tipsy-arrow { top: 50%; margin-top: -4px; left: 0; width: 5px; height: 9px; }
+
+.tipsy-inner {
+    background: url("/sites/all/modules/contrib/tipsy/images/tip_middle.png") repeat-y scroll 0 0 transparent;
+    color: #FFFFFF !important;
+    left: 8px;
+    padding: 0px 25px 0px;
+    position: absolute;
+    top: -66px;
+    width: 120px;
+    z-index: 100;
+    height: 80px;
+}
+
+.tipsy-s .tipsy-arrow {
+    background-position: left bottom;
+    bottom: -24px;
+    left: 5px;
+    margin-left: 3px;
+    position: absolute;
+}
+
+
